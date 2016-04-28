@@ -12,3 +12,8 @@ mergeYaml([
 ]);
 
 ````
+
+build
+-----
+
+[![Build Status](https://travis-ci.org/skapoor/merge-yaml.svg?branch=master)](https://travis-ci.org/skapoor/merge-yaml)
