@@ -1,6 +1,6 @@
 {
   "name": "merge-yaml",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Very thin wrapper to merge multiple yaml files",
   "main": "index.js",
   "scripts": {
