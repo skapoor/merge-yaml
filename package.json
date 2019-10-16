@@ -15,7 +15,7 @@
   "keywords": [
     "yaml",
     "node",
-    "lodash",
+    "lodash.merge",
     "merge",
     "utility"
   ],
@@ -23,8 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.6.1",
-    "lodash": "^4.17.15",
-    "lodash.merge": "~4.3.5"
+    "lodash.merge": "^4.6.2"
   },
   "jshintConfig": {
     "node": true
