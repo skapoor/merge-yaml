@@ -1,6 +1,6 @@
 {
   "name": "merge-yaml",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Very thin wrapper to merge multiple yaml files",
   "main": "index.js",
   "scripts": {
@@ -15,15 +15,15 @@
   "keywords": [
     "yaml",
     "node",
-    "lodash",
+    "lodash.merge",
     "merge",
     "utility"
   ],
   "author": "Sumit Kapoor <er_sumitkapoor@yahoo.com>",
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "~3.6.0",
-    "lodash.merge": "~4.3.5"
+    "js-yaml": "^3.6.1",
+    "lodash.merge": "^4.6.2"
   },
   "jshintConfig": {
     "node": true
