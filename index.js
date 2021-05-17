@@ -9,7 +9,7 @@ var jsYaml = require('js-yaml'),
 var merge = function (filesArray) {
     var mergedConfig;
     filesArray.forEach(function (file) {
-        var parsedConfig = jsYaml.safeLoad(fs.readFileSync(file, 'utf8'));
+        var parsedConfig = jsYaml.load(fs.readFileSync(file, 'utf8'));
         if (!mergedConfig) {
             mergedConfig = parsedConfig;
         } else {

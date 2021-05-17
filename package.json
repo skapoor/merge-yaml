@@ -22,7 +22,7 @@
   "author": "Sumit Kapoor <er_sumitkapoor@yahoo.com>",
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "^3.6.1",
+    "js-yaml": "^4.1.0",
     "lodash.merge": "^4.6.2"
   },
   "jshintConfig": {
@@ -31,7 +31,7 @@
   "devDependencies": {
     "chai": "~3.5.0",
     "istanbul": "~0.4.3",
-    "jenkins-mocha": "~2.6.0",
+    "jenkins-mocha": "^8.0.0",
     "jshint": "~2.9.2"
   }
 }
